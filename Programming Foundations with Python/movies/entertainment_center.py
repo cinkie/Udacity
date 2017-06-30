@@ -30,4 +30,9 @@ attack_on_titan = media.Movie("Attack on Titan Season 2",
 	"https://www.youtube.com/watch?v=vmWAEQ8qIc4")
 
 movies = [toy_story, avatar, lalaland, attack_on_titan]
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+
+# print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
